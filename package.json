@@ -9,13 +9,16 @@
     "server": "cd server node server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage":"https://watssupp.github.io/JATE",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^4.0.0",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
