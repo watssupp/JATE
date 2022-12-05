@@ -10,7 +10,7 @@
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
     "client": "cd client && npm start",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d client/dist"
   },
   "keywords": [],
   "author": "",
